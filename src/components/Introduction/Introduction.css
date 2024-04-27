@@ -1,0 +1,28 @@
+.app {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px; /* Reducir el espacio entre la imagen y el texto */
+    margin-right: 20px;
+  }
+  
+  .text-container {
+    padding: 20px;
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .image-container {
+      margin-bottom: 10px; /* Reducir el espacio entre la imagen y el texto en pantallas más pequeñas */
+    }
+  }

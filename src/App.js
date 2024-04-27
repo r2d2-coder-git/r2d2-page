@@ -1,23 +1,23 @@
 import React from "react";
-import Navigation from "./components/Navigation/Navigation";
-import Trayectoria from "./components/HorizontalTimeline/HorizontalTimeline";
-import Introduction from "./components/Introduction/Introduction";
-import H1Bootstrap from "./components/H1Bootstrap/H1Bootstrap";
 import './App.css'
+import ImageWithText from './components/Introduction/Introduction'
+import SocialMediaBox from "./components/SocialMediaBox/SocialMediaBox";
+import UdemyCourses from "./components/UdemyCourses/UdemyCourses";
+import CollabLinks from "./components/CollabLinks/CollabLinks";
+
 function App() {
 
   return (
-    <div>
-      <div>
-        <Navigation/>
-        <Introduction/>
-      </div>
-      <div id='id-professional-path' className="Professional-path">
-        <H1Bootstrap text = "TRAYECTORIA PERSONAL"/>
-        <Trayectoria/>
-      </div>
-      <div className="Social-media">
-
+    <div className="app">
+      <div className="center-content">
+      <ImageWithText title={'Arturo Lorenzo'} description={'Ingeniero Informático y creador de contenido'} />
+      <SocialMediaBox/>
+      <br></br>
+      <br></br>
+      <UdemyCourses/>
+      <br></br>
+      <br></br>
+      <CollabLinks/>
       </div>
     </div>
   );

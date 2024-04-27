@@ -1,8 +1,11 @@
-.Professional-path {
-  background: rgb(10,252,250);
-  background: linear-gradient(90deg, rgba(10,252,250,1) 0%, rgba(121,9,117,1) 0%, rgba(13,216,232,1) 100%);
-  height: '25%';
-  width: '100%';
+body {
+  background: linear-gradient(90deg, #000000, #00909b); /* Establece un gradiente de negro (#000000) a azul añil (#4b0082) de izquierda a derecha */
+  color: #fff; /* Cambia el color del texto a blanco para que sea legible en el gradiente */
+  font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
 }
 
-
+.center-content {
+  text-align: center; /* Alinear el contenido interno al centro */
+  padding-right: 25%;
+  padding-left: 25%;
+}

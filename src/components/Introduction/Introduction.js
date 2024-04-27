@@ -1,24 +1,28 @@
+import './Introduction.css'
+import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
-import backgroundImage from '../../images/introduction-background.jpg';
+import personalImage from '../../images/personal-image.png'
 
-const Introduction = () => {
-  return (
-    <div
-      style={{
-        height: '40vh',
-        width: '100%',
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-        <h1 style={{ color: 'white'}} className='display-4'>Atrévete a programar.</h1>
-    </div>
-  );
-};
+function Introduction({title, description}) {
+    return (
+        <div className="app">
+        <Container>
+          <Row className="justify-content-center align-items-center">
+            <Col sm={6}>
+              <div className="image-container">
+                <img src={personalImage} alt="Placeholder" />
+              </div>
+            </Col>
+            <Col sm={3} className="text-center">
+              <div className="text-container">
+                <h2>{title}</h2>
+                <p>{description}</p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    );
+  }
 
-export default Introduction;
+export default Introduction
