@@ -1,23 +1,5 @@
-.enlace {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  .enlace-con-borde {
+
+.enlace-con-borde {
     border: 2px solid black;
     border-radius: 50px;
     padding: 10px;

@@ -1,0 +1,14 @@
+.social-icon {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .icon-container {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .social-link {
+    text-decoration: none; /* Elimina el subrayado */
+    color: black; /* Cambia el color del texto a negro */
+  }

@@ -1,4 +1,4 @@
-.app {
+.main-container-introduction {
     min-height: 50vh;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@
   .text-container {
     padding: 20px;
   }
-  
+
   /* Media query para pantallas más pequeñas */
   @media (max-width: 768px) {
     .image-container {

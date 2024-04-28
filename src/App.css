@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(90deg, #000000, #00909b); /* Establece un gradiente de negro (#000000) a azul añil (#4b0082) de izquierda a derecha */
+  background: linear-gradient(80deg, #fdfdfd, #78c8f1); /* Establece un gradiente de negro (#000000) a azul añil (#4b0082) de izquierda a derecha */
   color: #fff; /* Cambia el color del texto a blanco para que sea legible en el gradiente */
   font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
 }
@@ -8,4 +8,11 @@ body {
   text-align: center; /* Alinear el contenido interno al centro */
   padding-right: 25%;
   padding-left: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos para dispositivos con un ancho máximo de 768px (típicamente tablets y móviles) */
+  .center-content {
+    padding: 0; /* Elimina los paddings para dispositivos móviles */
+  }
 }
