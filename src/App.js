@@ -5,6 +5,7 @@ import SocialMedia from "./components/SocialMedia/SocialMedia";
 import Courses from "./components/Courses/Courses";
 import CollabLinks from "./components/CollabLinks/CollabLinks";
 import Consultancy from "./components/Consultancy/Consultancy";
+import Footer from "./components/Footer/Footer";
 
 const socialsMedia = [
   { icono: 'instagram', url: 'https://www.instagram.com/r2d2.coder/'},
@@ -29,6 +30,8 @@ function App() {
       <Consultancy/>
       <br></br>
       <CollabLinks/>
+      <br></br>
+      <Footer></Footer>
       </div>
     </div>
   );

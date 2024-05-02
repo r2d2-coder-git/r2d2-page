@@ -11,12 +11,12 @@ const SocialMedia = ({ socialsMedia }) => {
         {socialsMedia.map((socialMedia, index) => (
           <Col key={index} xs="auto" className="social-icon">
             <div className="icon-container">
-              {socialMedia.icono === 'facebook' && <a href={socialMedia.url} className="social-link"><FaFacebook size={64} /></a>}
-              {socialMedia.icono === 'twitter' && <a href={socialMedia.url} className="social-link"><FaTwitter size={64} /></a>}
-              {socialMedia.icono === 'instagram' && <a href={socialMedia.url} className="social-link"><FaInstagram size={64} /></a>}
-              {socialMedia.icono === 'linkedin' && <a href={socialMedia.url} className="social-link"><FaLinkedin size={64} /></a>}
-              {socialMedia.icono === 'github' && <a href={socialMedia.url} className="social-link"><FaGithub size={64} /></a>}
-              {socialMedia.icono === 'youtube' && <a href={socialMedia.url} className="social-link"><FaYoutube size={64} /></a>}
+              {socialMedia.icono === 'facebook' && <a href={socialMedia.url} className="social-link"><FaFacebook className="social-icon-size" /></a>}
+              {socialMedia.icono === 'twitter' && <a href={socialMedia.url} className="social-link"><FaTwitter className="social-icon-size" /></a>}
+              {socialMedia.icono === 'instagram' && <a href={socialMedia.url} className="social-link"><FaInstagram className="social-icon-size" /></a>}
+              {socialMedia.icono === 'linkedin' && <a href={socialMedia.url} className="social-link"><FaLinkedin className="social-icon-size" /></a>}
+              {socialMedia.icono === 'github' && <a href={socialMedia.url} className="social-link"><FaGithub className="social-icon-size" /></a>}
+              {socialMedia.icono === 'youtube' && <a href={socialMedia.url} className="social-link"><FaYoutube className="social-icon-size" /></a>}
             </div>
           </Col>
         ))}

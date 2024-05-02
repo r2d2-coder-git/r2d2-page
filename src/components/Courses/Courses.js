@@ -20,7 +20,7 @@ const Courses = () => {
         {courses.map((course, index) => (
           <Col key={index} xs={12} sm={6} md={4} lg={3} className='text-center'>
             <div className="course-card">
-              <img src={course.imageUrl} alt={course.title} style={{ maxWidth: '100%', maxHeight: '130px' }} />
+              <img src={course.imageUrl} alt={course.title} className="course-image" />
               <h3>{course.title}</h3>
               <p>Instructor: {course.instructor}</p>
               {course.available ? (

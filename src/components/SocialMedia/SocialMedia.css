@@ -12,3 +12,14 @@
     text-decoration: none; /* Elimina el subrayado */
     color: black; /* Cambia el color del texto a negro */
   }
+
+  .social-icon-size {
+    font-size: 64px; /* Tamaño para dispositivos móviles */
+  }
+  
+  @media (max-width: 768px) {
+    .social-icon-size {
+      font-size: 40px; /* Tamaño para otras versiones */
+    }
+  }
+  
