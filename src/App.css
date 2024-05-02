@@ -13,6 +13,8 @@ body {
 @media screen and (max-width: 768px) {
   /* Estilos para dispositivos con un ancho máximo de 768px (típicamente tablets y móviles) */
   .center-content {
-    padding: 0; /* Elimina los paddings para dispositivos móviles */
+    padding-right: 3%; /* Elimina los paddings para dispositivos móviles */
+    padding-left: 3%;
+    padding-bottom: 3%;
   }
 }

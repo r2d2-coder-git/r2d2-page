@@ -10,7 +10,7 @@ const Consultancy = () => {
         <Col>
         <h2 className='text-center' style={{ marginBottom: '30px' }}>Consultorías</h2>
           <p>¿Quieres conseguir un trabajo en el mundo de la programación?</p>
-          <Button className='button-generic' variant="primary" href="enlace-a-tus-Consultancy">Contáctame</Button>
+          <Button className='button-generic' variant="primary" href="#"><em><b>Próximamente</b></em></Button>
         </Col>
       </Row>
     </Container>
