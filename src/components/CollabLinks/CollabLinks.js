@@ -3,12 +3,15 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import './CollabLinks.css';
 import '../../css/shared_styles.css';
 import nuclioImage from '../../images/nuclio_logo.svg'
-import BinaryStudioImage from '../../images/binary_studio_logo.svg'
+import inmigoImage from '../../images/inmigo.svg'
+import elevaImage from '../../images/eleva.svg'
 
 const CollabLinks = () => {
   const links = [
-    { image: nuclioImage, title: 'Charla grabada sobre flujo de datos', url: 'https://www.crowdcast.io/c/-de-bits-a-insights' },
-    { image: BinaryStudioImage, title: 'Academia GRATIS Desarrollo Web', url: 'https://academy.binary-studio.com/?utm_source=Instagram&utm_medium=influencer&utm_campaign=Arturo_lorenzo' }
+    { image: nuclioImage, title: 'EVENTO ANALISTA DE DATOS 20 AGOSTO', url: 'https://www.crowdcast.io/c/data-analyst-arturo' },
+    { image: inmigoImage, title: 'APRENDE INGLÉS DESDE 1.99$ POR CLASE', url: ' https://dev.immigo.io/?via=r2d2' },
+    { image: elevaImage, title: 'MI ESCRITORIO ELEVA 3.0', url: 'https://elevadesk.com/products/escritorio-elevable-eleva-3-0' },
+    { image: nuclioImage, title: 'MASTER DE DATA SCIENCE', url: 'https://share.hsforms.com/196JAx4YVSnKBjKy3aFfHcQ2zdpt' }
   ];
 
   return (
