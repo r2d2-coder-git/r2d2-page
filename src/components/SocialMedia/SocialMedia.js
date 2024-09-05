@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub, FaYoutube, FaTwitch } from 'react-icons/fa';
 import './SocialMedia.css';
 import '../../css/shared_styles.css';
 
@@ -12,6 +12,7 @@ const SocialMedia = ({ socialsMedia }) => {
           <Col key={index} xs="auto" className="social-icon">
             <div className="icon-container">
               {socialMedia.icono === 'facebook' && <a href={socialMedia.url} className="social-link"><FaFacebook className="social-icon-size" /></a>}
+              {socialMedia.icono === 'twitch' && <a href={socialMedia.url} className="social-link"><FaTwitch className="social-icon-size" /></a>}
               {socialMedia.icono === 'twitter' && <a href={socialMedia.url} className="social-link"><FaTwitter className="social-icon-size" /></a>}
               {socialMedia.icono === 'instagram' && <a href={socialMedia.url} className="social-link"><FaInstagram className="social-icon-size" /></a>}
               {socialMedia.icono === 'linkedin' && <a href={socialMedia.url} className="social-link"><FaLinkedin className="social-icon-size" /></a>}

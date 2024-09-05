@@ -8,8 +8,7 @@ import elevaImage from '../../images/eleva.svg'
 
 const CollabLinks = () => {
   const links = [
-    { image: nuclioImage, title: 'EVENTO ANALISTA DE DATOS 20 AGOSTO', url: 'https://www.crowdcast.io/c/data-analyst-arturo' },
-    { image: inmigoImage, title: 'APRENDE INGLÉS DESDE 1.99$ POR CLASE', url: ' https://dev.immigo.io/?via=r2d2' },
+    { image: nuclioImage, title: 'MESA REDONDA MADRID DATA SCIENCE', url: 'https://nuclio.school/event/mesa-redonda-data-science-ia-tendencias-desafios-y-futuro/?utm_campaign=arturo_lorenzo' },
     { image: elevaImage, title: 'MI ESCRITORIO ELEVA 3.0', url: 'https://elevadesk.com/products/escritorio-elevable-eleva-3-0' },
     { image: nuclioImage, title: 'MASTER DE DATA SCIENCE', url: 'https://share.hsforms.com/196JAx4YVSnKBjKy3aFfHcQ2zdpt' }
   ];

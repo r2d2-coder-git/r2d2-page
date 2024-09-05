@@ -9,9 +9,9 @@ import Footer from "./components/Footer/Footer";
 
 const socialsMedia = [
   { icono: 'instagram', url: 'https://www.instagram.com/r2d2.coder/'},
-  { icono: 'linkedin' , url: 'https://www.linkedin.com/in/arturo-lorenzo-10054612a/'},
-  { icono: 'github', url: 'https://github.com/r2d2-coder-git'},
-  { icono: 'youtube', url:'https://www.youtube.com/channel/UCFu275cNexSxEV09YpnFqrw'}
+  { icono: 'twitch' , url: 'https://www.twitch.tv/r2d2_coder'},
+  { icono: 'youtube', url:'https://www.youtube.com/channel/UCFu275cNexSxEV09YpnFqrw'},
+  { icono: 'github', url: 'https://github.com/r2d2-coder-git'}
 ];
 
 
