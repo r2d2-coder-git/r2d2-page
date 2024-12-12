@@ -8,6 +8,7 @@ const SocialMedia = ({ socialsMedia }) => {
   return (
     <Container className="main-container" fluid>
       <Row className="justify-content-center">
+      <h2 className='text-center' style={{ marginBottom: '30px' }}>Redes sociales</h2>
         {socialsMedia.map((socialMedia, index) => (
           <Col key={index} xs="auto" className="social-icon">
             <div className="icon-container">

@@ -3,14 +3,11 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import './CollabLinks.css';
 import '../../css/shared_styles.css';
 import nuclioImage from '../../images/nuclio_logo.svg'
-import inmigoImage from '../../images/inmigo.svg'
-import elevaImage from '../../images/eleva.svg'
 
 const CollabLinks = () => {
   const links = [
-    { image: nuclioImage, title: 'MESA REDONDA MADRID DATA SCIENCE', url: 'https://nuclio.school/event/mesa-redonda-data-science-ia-tendencias-desafios-y-futuro/?utm_campaign=arturo_lorenzo' },
-    { image: elevaImage, title: 'MI ESCRITORIO ELEVA 3.0', url: 'https://elevadesk.com/products/escritorio-elevable-eleva-3-0' },
-    { image: nuclioImage, title: 'MASTER DE DATA SCIENCE', url: 'https://share.hsforms.com/196JAx4YVSnKBjKy3aFfHcQ2zdpt' }
+    { image: nuclioImage, title: 'CHARLA CONCEPTOS FUNDAMENTALES BIG DATA', url: 'https://www.crowdcast.io/c/fundamentos-big-data' },
+    { image: nuclioImage, title: 'MASTER DATA SCIENCE', url: 'https://share.hsforms.com/196JAx4YVSnKBjKy3aFfHcQ2zdpt' }
   ];
 
   return (
