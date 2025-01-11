@@ -9,8 +9,7 @@ import awsImage from '../../images/aws.svg'
 const Courses = () => {
   const courses = [
     { title: 'Python desde cero', instructor: 'Arturo Lorenzo', imageUrl: pythonImage, url: 'https://www.udemy.com/course/python-desde-cero-hasta-nivel-experto/?referralCode=8F7A5E56D33ACC40F277', available: true },
-    { title: 'AWS para análisis big data', instructor: 'Arturo Lorenzo', imageUrl: awsImage, url: 'https://www.nucliolearning.com/tecnologia/analisisdedatosparabigdataenaws', available: true },
-    { title: 'Python para análisis de datos', instructor: 'Arturo Lorenzo', imageUrl: reportImage, url: 'url2', available: false }
+    { title: 'Análisis de datos con Python', instructor: 'Arturo Lorenzo', imageUrl: reportImage, url: 'url2', available: false }
   ];
 
   return (

@@ -9,9 +9,7 @@ const EduAdvice = () => {
     { image: eduAdviceImage, title: 'CURSOS Y MASTERS FULL STACK DEVELOPER', url: 'https://eadv.io/13292/r2d2coder' },
     { image: eduAdviceImage, title: 'CURSOS Y MASTERS DATA SCIENCE', url: 'https://eadv.io/26688/r2d2coder' },
     { image: eduAdviceImage, title: 'CURSOS Y MASTERS BIG DATA', url: 'https://eadv.io/11935/r2d2coder' },
-    { image: eduAdviceImage, title: 'CURSOS Y MASTERS BUSINESS INTELLIGENCE', url: 'https://eadv.io/11895/r2d2coder' },
-    { image: eduAdviceImage, title: 'GRADO SUPERIOR DAW', url: 'https://eadv.io/1111/r2d2coder' },
-    { image: eduAdviceImage, title: 'GRADO SUPERIOR DAM', url: 'https://eadv.io/1115/r2d2coder' },
+    { image: eduAdviceImage, title: 'GRADO SUPERIOR DAW', url: 'https://eadv.io/1111/r2d2coder' }
   ];
 
   return (

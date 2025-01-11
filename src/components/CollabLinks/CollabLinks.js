@@ -6,8 +6,7 @@ import nuclioImage from '../../images/nuclio_logo.svg'
 
 const CollabLinks = () => {
   const links = [
-    { image: nuclioImage, title: 'CHARLA CONCEPTOS FUNDAMENTALES BIG DATA', url: 'https://www.crowdcast.io/c/fundamentos-big-data' },
-    { image: nuclioImage, title: 'MASTER DATA SCIENCE', url: 'https://share.hsforms.com/196JAx4YVSnKBjKy3aFfHcQ2zdpt' }
+    { image: nuclioImage, title: 'CHARLA CONCEPTOS FUNDAMENTALES BIG DATA', url: 'https://www.crowdcast.io/c/fundamentos-big-data' }
   ];
 
   return (

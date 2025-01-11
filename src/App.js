@@ -22,16 +22,16 @@ function App() {
     <div className="app">
       <div className="center-content">
       <Introduction title={'Arturo Lorenzo'} description={'Ingeniero Informático y creador de contenido'} />
-      <EduAdvice/>
-      <br></br>
-      <br></br> 
-      <CollabLinks/>
-      <br></br>
-      <br></br> 
       <Courses/>
       <br></br>
       <br></br>
       <Consultancy/>
+      <br></br>
+      <br></br>
+      <EduAdvice/>
+      <br></br>
+      <br></br> 
+      <CollabLinks/>
       <br></br>
       <SocialMedia socialsMedia={socialsMedia}/>
       <br></br>
