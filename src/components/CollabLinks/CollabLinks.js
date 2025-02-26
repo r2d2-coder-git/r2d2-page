@@ -2,11 +2,11 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './CollabLinks.css';
 import '../../css/shared_styles.css';
-import nuclioImage from '../../images/nuclio_logo.svg'
+import plaudNote from '../../images/plaud_note.png'
 
 const CollabLinks = () => {
   const links = [
-    { image: nuclioImage, title: 'CHARLA CONCEPTOS FUNDAMENTALES BIG DATA', url: 'https://www.crowdcast.io/c/fundamentos-big-data' }
+    { image: plaudNote, title: 'PLAUD NOTE', url: 'https://www.amazon.es/dp/B0D35MNVRT?maas=maas_adg_10C0EDC83ACA62C24E05F66421888A4C_afap_abs&ref_=aa_maas&tag=maas' }
   ];
 
   return (

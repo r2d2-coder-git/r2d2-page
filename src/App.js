@@ -9,10 +9,9 @@ import Consultancy from "./components/Consultancy/Consultancy";
 import Footer from "./components/Footer/Footer";
 
 const socialsMedia = [
+  { icono: 'github', url: 'https://github.com/r2d2-coder-git'},
   { icono: 'instagram', url: 'https://www.instagram.com/r2d2.coder/'},
-  { icono: 'twitch' , url: 'https://www.twitch.tv/r2d2_coder'},
-  { icono: 'youtube', url:'https://www.youtube.com/channel/UCFu275cNexSxEV09YpnFqrw'},
-  { icono: 'github', url: 'https://github.com/r2d2-coder-git'}
+  { icono: 'youtube', url:'https://www.youtube.com/channel/UCFu275cNexSxEV09YpnFqrw'}
 ];
 
 
@@ -22,18 +21,17 @@ function App() {
     <div className="app">
       <div className="center-content">
       <Introduction title={'Arturo Lorenzo'} description={'Ingeniero Informático y creador de contenido'} />
+      <br></br>
+      <br></br>
       <Courses/>
       <br></br>
       <br></br>
-      <Consultancy/>
-      <br></br>
-      <br></br>
-      <EduAdvice/>
+      <SocialMedia socialsMedia={socialsMedia}/>
       <br></br>
       <br></br> 
-      <CollabLinks/>
+      <EduAdvice/>
       <br></br>
-      <SocialMedia socialsMedia={socialsMedia}/>
+      <Consultancy/>
       <br></br>
       <Footer></Footer>
       </div>
