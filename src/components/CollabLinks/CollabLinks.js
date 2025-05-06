@@ -2,11 +2,11 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './CollabLinks.css';
 import '../../css/shared_styles.css';
-import plaudNote from '../../images/plaud_note.png'
+import keysfan from '../../images/keysfan.png'
 
 const CollabLinks = () => {
   const links = [
-    { image: plaudNote, title: 'PLAUD NOTE', url: 'https://www.amazon.es/dp/B0D35MNVRT?maas=maas_adg_10C0EDC83ACA62C24E05F66421888A4C_afap_abs&ref_=aa_maas&tag=maas' }
+    { image: keysfan, title: 'KEYS FAN (52% DESCUENTO CÓDIGO:R2D52)', url: 'https://es.keysfan.com/windows-11-professional-key.html?ksf=ar2sr' }
   ];
 
   return (
