@@ -6,7 +6,8 @@ import temu from '../../images/temu.png'
 
 const CollabLinks = () => {
   const links = [
-    { image: temu, title: 'TEMU (Código DTO: dwf7748)', url: 'https://app.temu.com/k/esmzh8i3hj8' }  ];
+    { image: temu, title: 'TEMU TECLADO Y MONITOR (Código DTO: dwf7748)', url: 'https://app.temu.com/k/esmzh8i3hj8' },
+  { image: temu, title: 'TEMU PRODUCTOS A 0$ (Código Mágico: dzd2585)', url: 'https://app.temu.com/k/efwpp1p9r71' }  ];
 
   return (
     <Container className='satoshi-medium main-container'>
