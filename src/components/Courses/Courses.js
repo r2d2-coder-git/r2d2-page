@@ -6,6 +6,7 @@ import pythonImage from '../../images/python.svg'
 import reportImage from '../../images/report.svg'
 import awsImage from '../../images/aws.svg'
 
+
 const renderNewLabel = (course) => {
   if (course.isNew) {
     return (
@@ -20,7 +21,8 @@ const renderNewLabel = (course) => {
 const Courses = () => {
   const courses = [
     { title: 'Python desde cero', instructor: 'Arturo Lorenzo', imageUrl: pythonImage, url: 'https://www.udemy.com/course/python-desde-cero-hasta-nivel-experto/?referralCode=8F7A5E56D33ACC40F277', available: true, isNew: false },
-    { title: 'Análisis de datos con Python', instructor: 'Arturo Lorenzo', imageUrl: reportImage, url: 'https://www.udemy.com/course/analisis-de-datos-con-python-total-en-7-dias/?couponCode=9E464FA0CB4E876403A0', available: true, isNew: true }
+    { title: 'Análisis de datos con Python', instructor: 'Arturo Lorenzo', imageUrl: reportImage, url: 'https://www.udemy.com/course/analisis-de-datos-con-python-total-en-7-dias/?couponCode=9E464FA0CB4E876403A0', available: true, isNew: true },
+    { title: 'AWS para Análisis Big Data', instructor: 'Arturo Lorenzo', imageUrl: awsImage, url: '', available: false, isNew: false }
   ];
 
   return (

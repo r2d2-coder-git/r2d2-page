@@ -3,9 +3,12 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import './CollabLinks.css';
 import '../../css/shared_styles.css';
 import temu from '../../images/temu.png'
+import hbada from '../../images/hbada.svg'
 
 const CollabLinks = () => {
   const links = [
+    { image: hbada, title: 'SILLA HBADA PÁGINA OFICIAL (Código 5% DTO: R2D2)', url: 'https://bit.ly/44nyzYe' },
+    { image: hbada, title: 'SILLA HBADA AMAZON (Código 5% DTO: R2DECODE)', url: 'https://amzn.to/3HsITp9' },
     { image: temu, title: 'TEMU TECLADO Y MONITOR (Código DTO: dwf7748)', url: 'https://app.temu.com/k/esmzh8i3hj8' },
   { image: temu, title: 'TEMU PRODUCTOS A 0$ (Código Mágico: dzd2585)', url: 'https://app.temu.com/k/efwpp1p9r71' }  ];
 
