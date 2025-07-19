@@ -20,9 +20,9 @@ const renderNewLabel = (course) => {
 
 const Courses = () => {
   const courses = [
-    { title: 'AWS para Análisis Big Data', instructor: 'Arturo Lorenzo', imageUrl: awsImage, url: 'https://www.udemy.com/course/aws-para-analistas-de-datos-total-en-7-dias/?couponCode=PRIMEROSALUMNOS', available: true, isNew: true },
-    { title: 'Análisis de datos con Python', instructor: 'Arturo Lorenzo', imageUrl: reportImage, url: 'https://www.udemy.com/course/analisis-de-datos-con-python-total-en-7-dias/?couponCode=9E464FA0CB4E876403A0', available: true, isNew: false },
-    { title: 'Python desde cero', instructor: 'Arturo Lorenzo', imageUrl: pythonImage, url: 'https://www.udemy.com/course/python-desde-cero-hasta-nivel-experto/?referralCode=8F7A5E56D33ACC40F277', available: true, isNew: false }
+    { title: 'AWS para Análisis Big Data', instructor: 'Arturo Lorenzo', imageUrl: awsImage, url: 'https://www.udemy.com/course/aws-para-analistas-de-datos-total-en-7-dias/?couponCode=181E68CFF7F2BBA7BD8B', available: true, isNew: true },
+    { title: 'Análisis de datos con Python', instructor: 'Arturo Lorenzo', imageUrl: reportImage, url: 'https://www.udemy.com/course/analisis-de-datos-con-python-total-en-7-dias/?couponCode=F64E1628FDFA3345B6D8', available: true, isNew: false },
+    { title: 'Python desde cero', instructor: 'Arturo Lorenzo', imageUrl: pythonImage, url: 'https://www.udemy.com/course/python-desde-cero-hasta-nivel-experto/?couponCode=02BF27BEBD34E64AEFB2', available: true, isNew: false }
   ];
 
   return (
