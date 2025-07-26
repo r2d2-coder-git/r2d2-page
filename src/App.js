@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css'
 import Introduction from './components/Introduction/Introduction'
+import Background from './components/Background/Background'
 import SocialMedia from "./components/SocialMedia/SocialMedia";
 import Courses from "./components/Courses/Courses";
 import CollabLinks from "./components/CollabLinks/CollabLinks";
