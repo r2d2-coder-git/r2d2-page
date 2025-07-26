@@ -1,0 +1,145 @@
+/* Background Section Styles */
+
+.section-title {
+  color: #4494b6;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+/* Experience Timeline */
+.experience-timeline {
+  position: relative;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 3px solid #4494b6;
+  background-color: rgba(68, 148, 182, 0.05);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-header {
+  margin-bottom: 10px;
+}
+
+.experience-header h4 {
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.company-name {
+  color: #4494b6;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.experience-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.period {
+  font-weight: 600;
+}
+
+.location {
+  font-style: italic;
+}
+
+.experience-description {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Education Styles */
+.education-item {
+  padding: 20px;
+  background-color: rgba(68, 148, 182, 0.05);
+  border-radius: 10px;
+  border-left: 3px solid #4494b6;
+}
+
+.education-item h4 {
+  color: #333;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.institution {
+  color: #4494b6;
+  font-weight: 600;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.education-meta {
+  display: flex;
+  gap: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.grade {
+  font-weight: 600;
+  color: #4494b6;
+}
+
+/* Skills Styles */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background-color: #4494b6;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.skill-tag:hover {
+  background-color: #1568c2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-item {
+    margin-left: 0;
+    padding: 15px;
+  }
+  
+  .experience-meta {
+    font-size: 0.8rem;
+  }
+  
+  .skills-container {
+    justify-content: center;
+  }
+  
+  .skill-tag {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+  
+  .section-title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}

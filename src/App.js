@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css'
 import Introduction from './components/Introduction/Introduction'
+import Background from './components/Background/Background'
 import SocialMedia from "./components/SocialMedia/SocialMedia";
 import Courses from "./components/Courses/Courses";
 import CollabLinks from "./components/CollabLinks/CollabLinks";
@@ -23,6 +24,9 @@ function App() {
       <Introduction title={'Arturo Lorenzo'} description={'Ingeniero Informático y creador de contenido'} />
       <br></br>
       <br></br>
+      <Background/>
+      <br></br>
+      <br></br>
       <Courses/>
       <br></br>
       <br></br>
@@ -31,8 +35,6 @@ function App() {
       <br></br>
       <SocialMedia socialsMedia={socialsMedia}/>
       <br></br>
-      <br></br> 
-      <EduAdvice/>
       <br></br>
       <Consultancy/>
       <br></br>
