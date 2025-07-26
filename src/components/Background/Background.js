@@ -11,7 +11,7 @@ const Background = () => {
       period: "feb. 2023 - actualidad",
       duration: "2 años 6 meses",
       location: "Málaga, Andalucía, España · Híbrido",
-      description: "Implemento y mantengo la arquitectura de datos de forma escalable y segura usando tecnologías AWS como EMR, Step Functions, Lambda Functions, Glue Data Catalog y Pyspark para procesamiento de big data y analytics. Trabajo con herramientas como Terraform para automatizar la gestión de infraestructura."
+      description: "Diseño y mantengo arquitecturas de datos escalables con AWS y Terraform para big data y analytics."
     },
     {
       title: "Big Data Engineer",
@@ -19,7 +19,7 @@ const Background = () => {
       period: "nov. 2021 - feb. 2023",
       duration: "1 año 4 meses",
       location: "Remoto",
-      description: "Implementé y mantuve procesos ETL con Azure Data Factory, desarrollo de tests de consistencia con Pyspark en Databricks, y desarrollo de infraestructura como código con Terraform y automatización con CI/CD pipelines en Azure DevOps."
+      description: "Desarrollé procesos ETL con Azure Data Factory y pipelines CI/CD para infraestructura como código."
     },
     {
       title: "Big Data Engineer",
@@ -27,7 +27,7 @@ const Background = () => {
       period: "abr. 2021 - nov. 2021",
       duration: "8 meses",
       location: "Murcia, Región de Murcia, España",
-      description: "Realicé procesos ETL de empresa internacional usando tecnología Talend. También realicé consultas complejas y análisis de datalake en Azure Synapse."
+      description: "Implementé procesos ETL con Talend y análisis de datalake en Azure Synapse."
     }
   ];
 
