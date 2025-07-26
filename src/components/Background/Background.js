@@ -6,7 +6,7 @@ import '../../css/shared_styles.css'
 const Background = () => {
   const experiences = [
     {
-      title: "Data Architect",
+      title: "Big Data Architect",
       company: "Grupo IskayPet (Tiendanimal, Kiwoko, Kivet, Clinicanimal)",
       period: "feb. 2023 - actualidad",
       duration: "2 años 6 meses",

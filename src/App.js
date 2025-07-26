@@ -35,8 +35,6 @@ function App() {
       <br></br>
       <SocialMedia socialsMedia={socialsMedia}/>
       <br></br>
-      <br></br> 
-      <EduAdvice/>
       <br></br>
       <Consultancy/>
       <br></br>
