@@ -1,0 +1,19 @@
+.custom-navbar-bg {
+  background: linear-gradient(80deg, #fdfdfd, #78c8f1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.custom-navbar-bg .navbar-brand,
+.custom-navbar-bg .nav-link {
+  color: #222 !important;
+  font-family: 'Satoshi-Medium', sans-serif !important;
+}
+
+.custom-navbar-bg .nav-link.active,
+.custom-navbar-bg .nav-link:focus,
+.custom-navbar-bg .nav-link:active {
+  color: #222 !important;
+  font-weight: normal !important;
+  background: none !important;
+  outline: none !important;
+} 

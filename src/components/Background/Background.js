@@ -48,7 +48,7 @@ const Background = () => {
   ];
 
   return (
-    <Container className="satoshi-medium main-container" fluid>
+    <Container id="trayectoria" className="satoshi-medium main-container" fluid>
       <h2 className='text-center satoshi-bold' style={{ marginBottom: '30px' }}>Mi Background Profesional</h2>
       
       {/* Experiencia Profesional */}
