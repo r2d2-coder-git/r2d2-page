@@ -5,7 +5,7 @@ import '../../css/shared_styles.css'
 
 const Consultancy = () => {
   return (
-    <Container className="satoshi-medium main-container">
+    <Container id="consultorias" className="satoshi-medium main-container">
       <Row>
         <Col>
         <h2 className='text-center' style={{ marginBottom: '30px' }}>Consultorías</h2>

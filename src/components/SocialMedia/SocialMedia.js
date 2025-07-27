@@ -6,7 +6,7 @@ import '../../css/shared_styles.css';
 
 const SocialMedia = ({ socialsMedia }) => {
   return (
-    <Container className="main-container" fluid>
+    <Container id="redes-sociales" className="main-container" fluid>
       <Row className="justify-content-center">
       <h2 className='text-center' style={{ marginBottom: '30px' }}>Redes sociales</h2>
         {socialsMedia.map((socialMedia, index) => (

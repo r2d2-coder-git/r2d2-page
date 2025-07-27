@@ -8,6 +8,7 @@ import CollabLinks from "./components/CollabLinks/CollabLinks";
 import EduAdvice from "./components/EduAdvice/EduAdvice";
 import Consultancy from "./components/Consultancy/Consultancy";
 import Footer from "./components/Footer/Footer";
+import Navigation from './components/Navigation/Navigation';
 
 const socialsMedia = [
   { icono: 'github', url: 'https://github.com/r2d2-coder-git'},
@@ -20,17 +21,18 @@ function App() {
 
   return (
     <div className="app">
+      <Navigation />
       <div className="center-content">
       <Introduction title={'Arturo Lorenzo'} description={'Ingeniero Informático y creador de contenido'} />
-      <br></br>
-      <br></br>
-      <Background/>
       <br></br>
       <br></br>
       <Courses/>
       <br></br>
       <br></br>
       <CollabLinks/>
+      <br></br>
+      <br></br>
+      <Background/>
       <br></br>
       <br></br>
       <SocialMedia socialsMedia={socialsMedia}/>

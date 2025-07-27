@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(80deg, #fdfdfd, #78c8f1); /* Establece un gradiente de negro (#000000) a azul añil (#4b0082) de izquierda a derecha */
-  color: #fff; /* Cambia el color del texto a blanco para que sea legible en el gradiente */
+  color: #222; /* Cambia el color del texto a blanco para que sea legible en el gradiente */
   font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
 }
 

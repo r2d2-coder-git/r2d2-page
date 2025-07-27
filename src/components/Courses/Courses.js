@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './Courses.css';
 import '../../css/shared_styles.css'
@@ -19,20 +19,24 @@ const renderNewLabel = (course) => {
 }
 
 const Courses = () => {
-  const courses = [
+  const [udemyCourses, setUdemyCourses] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  const localCourses = [
     { title: 'AWS para Análisis Big Data', instructor: 'Arturo Lorenzo', imageUrl: awsImage, url: 'https://www.udemy.com/course/aws-para-analistas-de-datos-total-en-7-dias/?couponCode=181E68CFF7F2BBA7BD8B', available: true, isNew: true },
     { title: 'Análisis de datos con Python', instructor: 'Arturo Lorenzo', imageUrl: reportImage, url: 'https://www.udemy.com/course/analisis-de-datos-con-python-total-en-7-dias/?couponCode=F64E1628FDFA3345B6D8', available: true, isNew: false },
     { title: 'Python desde cero', instructor: 'Arturo Lorenzo', imageUrl: pythonImage, url: 'https://www.udemy.com/course/python-desde-cero-hasta-nivel-experto/?couponCode=02BF27BEBD34E64AEFB2', available: true, isNew: false }
   ];
 
   return (
-    <Container className="satoshi-medium main-container" fluid>
+    <Container id="cursos" className="satoshi-medium main-container" fluid>
       <h2 className='text-center' style={{ marginBottom: '10px' }}>Aprende con mis cursos</h2>
       <p className="fs-4 fw-bold text-danger">
         <b><em>¡Nuevo curso disponible!🔥</em></b>
       </p>
       <Row className='center-row'>
-        {courses.map((course, index) => (
+        {localCourses.map((course, index) => (
           <Col key={index} xs={12} sm={6} md={4} lg={3} className='text-center'>
             <div className="course-card">
               <img src={course.imageUrl} alt={course.title} className="course-image" />
