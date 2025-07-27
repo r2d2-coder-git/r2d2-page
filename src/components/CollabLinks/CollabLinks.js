@@ -12,7 +12,7 @@ const CollabLinks = () => {
   { image: temu, title: 'TEMU PRODUCTOS A 0$ (Código Mágico: dzd2585)', url: 'https://app.temu.com/k/efwpp1p9r71' }  ];
 
   return (
-    <Container className='satoshi-medium main-container'>
+    <Container id='colaboraciones' className='satoshi-medium main-container'>
       <h2 className='text-center' style={{ marginBottom: '30px' }}>Colaboraciones</h2>
       {links.map((link, index) => (
         <Row key={index} style={{marginBottom:'20px'}}>

@@ -26,13 +26,13 @@ function App() {
       <Introduction title={'Arturo Lorenzo'} description={'Ingeniero Informático y creador de contenido'} />
       <br></br>
       <br></br>
-      <Background/>
-      <br></br>
-      <br></br>
       <Courses/>
       <br></br>
       <br></br>
       <CollabLinks/>
+      <br></br>
+      <br></br>
+      <Background/>
       <br></br>
       <br></br>
       <SocialMedia socialsMedia={socialsMedia}/>

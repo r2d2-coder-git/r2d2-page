@@ -27,10 +27,11 @@ function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#trayectoria" onClick={e => handleNavClick(e, 'trayectoria')}>Trayectoria</Nav.Link>
             <Nav.Link href="#cursos" onClick={e => handleNavClick(e, 'cursos')}>Cursos</Nav.Link>
+            <Nav.Link href="#colaboraciones" onClick={e => handleNavClick(e, 'colaboraciones')}>Colaboraciones</Nav.Link>
+            <Nav.Link href="#trayectoria" onClick={e => handleNavClick(e, 'trayectoria')}>Trayectoria</Nav.Link>
             <Nav.Link href="#redes-sociales" onClick={e => handleNavClick(e, 'redes-sociales')}>Redes sociales</Nav.Link>
-            <Nav.Link href="#consultorias" onClick={e => handleNavClick(e, 'consultorias')}>Consultorías</Nav.Link>
+           {/* <Nav.Link href="#consultorias" onClick={e => handleNavClick(e, 'consultorias')}>Consultorías</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
