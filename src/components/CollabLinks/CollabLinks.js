@@ -2,14 +2,14 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './CollabLinks.css';
 import '../../css/shared_styles.css';
-import temu from '../../images/temu.png'
+import cloudways from '../../images/cloudways.png'
 import emergent from '../../images/emergent.png'
 
 const CollabLinks = () => {
   const links = [
-    { image: emergent, title: 'EMERGENT AGENTE DE AI', url: 'https://app.emergent.sh/' } ,
-    { image: temu, title: 'TEMU TECLADO Y MONITOR (Código DTO: dwf7748)', url: 'https://app.temu.com/k/esmzh8i3hj8' },
-  { image: temu, title: 'TEMU PRODUCTOS A 0$ (Código Mágico: dzd2585)', url: 'https://app.temu.com/k/efwpp1p9r71' }  ];
+    { image: emergent, title: 'EMERGENT: AGENTE DE AI', url: 'https://app.emergent.sh/' } ,
+    { image: cloudways, title: 'CLOUDWAYS: SERVIDORES GESTIONADOS (Código: R2D2CODE)', url: 'https://www.cloudways.com/es' } 
+   ];
 
   return (
     <Container id='colaboraciones' className='satoshi-medium main-container'>
