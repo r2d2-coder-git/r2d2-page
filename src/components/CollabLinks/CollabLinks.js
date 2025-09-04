@@ -8,7 +8,7 @@ import emergent from '../../images/emergent.png'
 const CollabLinks = () => {
   const links = [
     { image: emergent, title: 'EMERGENT: AGENTE DE AI', url: 'https://app.emergent.sh/' } ,
-    { image: cloudways, title: 'CLOUDWAYS: SERVIDORES GESTIONADOS (Código: R2D2CODE)', url: 'https://www.cloudways.com/es' } 
+    { image: cloudways, title: 'CLOUDWAYS: SERVIDORES GESTIONADOS (Código: R2D2CODE)', url: 'https://www.cloudways.com/es/?id=1972954' } 
    ];
 
   return (
