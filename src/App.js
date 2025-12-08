@@ -9,7 +9,7 @@ import EduAdvice from "./components/EduAdvice/EduAdvice";
 import Consultancy from "./components/Consultancy/Consultancy";
 import Footer from "./components/Footer/Footer";
 import Navigation from './components/Navigation/Navigation';
-
+import Codiem from "./components/Codiem/Codiem";
 const socialsMedia = [
   { icono: 'github', url: 'https://github.com/r2d2-coder-git'},
   { icono: 'instagram', url: 'https://www.instagram.com/r2d2.coder/'},
@@ -26,6 +26,9 @@ function App() {
       <Introduction title={'Arturo Lorenzo'} description={'Ingeniero Informático y creador de contenido'} />
       <br></br>
       <br></br>
+      <Codiem/>
+      <br></br>
+      <br></br>
       <Courses/>
       <br></br>
       <br></br>
@@ -36,9 +39,6 @@ function App() {
       <br></br>
       <br></br>
       <SocialMedia socialsMedia={socialsMedia}/>
-      <br></br>
-      <br></br>
-      <Consultancy/>
       <br></br>
       <Footer></Footer>
       </div>

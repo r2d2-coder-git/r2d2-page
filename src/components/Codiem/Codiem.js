@@ -1,19 +1,17 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import './CollabLinks.css';
+import './Codiem.css';
 import '../../css/shared_styles.css';
-import emergent from '../../images/emergent.png'
-import sketchflow from '../../images/sketchflow.png'
+import codiem from '../../images/codiem.jpeg'
 
-const CollabLinks = () => {
+const Codiem = () => {
   const links = [
-    { image: sketchflow, title: 'SKETCHFLOW', url: 'https://dada.link/KRZnOn' } ,
-    { image: emergent, title: 'EMERGENT: AGENTE DE AI', url: 'https://app.emergent.sh/?via=r2d2tech' } ,
+    { image: codiem, title: 'CÓDIGO DESCUENTO(20%): 20R2D2', url: 'https://www.etsy.com/shop/CodiemStudio?ref=shop_sugg_market' } ,
    ];
 
   return (
-    <Container id='colaboraciones' className='satoshi-medium main-container'>
-      <h2 className='text-center' style={{ marginBottom: '30px' }}>Colaboraciones</h2>
+    <Container id='codiem' className='satoshi-medium main-container'>
+      <h2 className='text-center' style={{ marginBottom: '30px' }}>El Merch que sólo tú entiendes</h2>
       {links.map((link, index) => (
         <Row key={index} style={{marginBottom:'20px'}}>
           <Col xs={4} className="text-center" style={{marginTop:'20px'}}>
@@ -31,4 +29,4 @@ const CollabLinks = () => {
   );
 }
 
-export default CollabLinks;
+export default Codiem;
