@@ -3,11 +3,13 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import './CollabLinks.css';
 import '../../css/shared_styles.css';
 import emergent from '../../images/emergent.png'
-import sketchflow from '../../images/sketchflow.png'
+import readdy from '../../images/readdy.png'
+import verdent from '../../images/verdent.svg'
 
 const CollabLinks = () => {
   const links = [
-    { image: sketchflow, title: 'SKETCHFLOW', url: 'https://dada.link/KRZnOn' } ,
+    { image: readdy, title: 'READDY AI', url: 'https://bit.ly/Readdy01_ArturoLorenzo' } ,
+    { image: verdent, title: 'VERDENT AI', url: 'https://www.verdent.ai/es?id=700036&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnpFLTqV45CgtCNuscIjY9XiDqesDL0KwPgI57sZzPfzyjZt05Ylmf_ictdRY_aem_okP-LKZLhTEoiRbwDOMITw' } ,
     { image: emergent, title: 'EMERGENT: AGENTE DE AI', url: 'https://app.emergent.sh/?via=r2d2tech' } ,
    ];
 

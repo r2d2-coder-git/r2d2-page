@@ -1,0 +1,52 @@
+# =====================================
+# AWS CONFIGURATION
+# =====================================
+
+AWS_ACCESS_KEY_ID=AKIA4F7M2Q9L8X3D2A1B
+AWS_SECRET_ACCESS_KEY=K8d9sF2mLqP0ZxE7N4A1bC6VYtH5JwR3
+AWS_REGION=eu-west-1
+AWS_ACCOUNT_ID=845392017463
+
+# =====================================
+# DATABASE - TRANSACTIONAL (PROD)
+# =====================================
+
+DB_ENGINE=postgres
+DB_HOST=prod-postgres-01.internal.aws
+DB_PORT=5432
+DB_NAME=core_platform
+DB_USER=platform_admin
+DB_PASSWORD=V7mR4Zp2K9LxD1Q
+
+# =====================================
+# DATABASE - ANALYTICS (DWH)
+# =====================================
+
+DWH_ENGINE=redshift
+DWH_HOST=redshift-cluster-main.corp.aws
+DWH_PORT=5439
+DWH_NAME=analytics
+DWH_USER=bi_user
+DWH_PASSWORD=R9KxP1ZL7M2qD8
+
+# =====================================
+# CACHE
+# =====================================
+
+REDIS_HOST=redis-cache.internal.aws
+REDIS_PORT=6379
+REDIS_PASSWORD=R3d1sS3cur3
+
+# =====================================
+# AUTH & SECURITY
+# =====================================
+
+JWT_SECRET=6c1a8e9f4d7b2c3f8a9d1e4b6c5a7e
+TOKEN_EXPIRATION_MINUTES=60
+
+# =====================================
+# THIRD PARTY SERVICES
+# =====================================
+
+STRIPE_API_KEY=sk_live_51H9qQyKZx0L3D4F8mN
+SENDGRID_API_KEY=SG.PxQZ8D4L3K2M1F
